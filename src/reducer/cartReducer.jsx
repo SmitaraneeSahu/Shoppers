@@ -1,3 +1,4 @@
+import React from 'react';
 export function cartReducer(state, action){
     const {type, payload} = action;
 
@@ -12,4 +13,5 @@ export function cartReducer(state, action){
         default:
             throw new error("No Case Found")
     }
+
 }
