@@ -1,3 +1,4 @@
+import React from 'react';
 import {Routes, Route} from 'react-router-dom';
 import {Home, Cart} from "../pages";
 
@@ -12,3 +13,4 @@ export function AllRoutes() {
     </>
   )
 }
+
