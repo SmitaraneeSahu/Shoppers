@@ -1,3 +1,4 @@
+import React from 'react';
 import { useContext, useReducer } from "react";
 import { createContext } from "react"; 
 import { cartReducer } from "../reducer/cartReducer";
@@ -59,4 +60,5 @@ export function CartProvider({children}){
 
 export function useCart(){
     return useContext(CartContext);
+
 }
